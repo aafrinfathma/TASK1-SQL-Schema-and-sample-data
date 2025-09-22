@@ -53,7 +53,7 @@ Here are some example questions this dataset can help answer:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/indian-unicorns-analysis.git
+git clone (https://github.com/aafrinfathma/TASK1-SQL-Schema-and-sample-data.git)
 cd indian-unicorns-analysis
 2. Load the SQL Schema
 Run the schema in MySQL:

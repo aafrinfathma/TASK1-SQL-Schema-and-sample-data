@@ -48,7 +48,7 @@ CREATE TABLE funding_rounds (
     notes TEXT,
     FOREIGN KEY (startup_id) REFERENCES startups(startup_id) ON DELETE CASCADE,
     FOREIGN KEY (lead_investor_id) REFERENCES investors(investor_id)
-);
+)AUTO INCREMENT=1;
 
 -- Round Participants (junction) – composite PK removes dashed lines
 CREATE TABLE round_participants (

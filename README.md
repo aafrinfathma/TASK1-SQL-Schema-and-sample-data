@@ -6,6 +6,9 @@ It is designed to help **investors, researchers, and analysts** identify **hot i
 ---
 
 ## 📌 Features
+- Two schema types
+   - One with surrogate keys to maintain faster functionality (CRUD operations) and simpler joins functions.
+   - One with Composite Keys(CK) to eliminate non identifying relationships and to maintain data integrity.
 - Well-structured **relational schema** with key entities:
   - **Startups** (unicorn companies, valuations, HQ locations, status)
   - **Industries** (sectors like fintech, edtech, e-commerce, SaaS, etc.)
@@ -13,13 +16,13 @@ It is designed to help **investors, researchers, and analysts** identify **hot i
   - **Funding Rounds** (round type, amount, date)
   - **Associations** (many-to-many mappings for startups ↔ industries and startups ↔ investors)
 - Normalization
-  - ** achieved 3NF Normalization**
   - eliminated partial and transitional depedencies
   - ensured non-key attributes are directly linked to the primary key
 - Integrity Constraints
   - Foreign Keys,Unique,Check,Cascade
 
 - **ER Diagram** included for quick visualization of relationships.
+- Both ER diagrams show the difference between using surrogate keys and composite keys and their effect on the entity relationships
 - Designed for **advanced queries** to extract insights on valuation growth, funding activity, and market trends.
 
 ---
